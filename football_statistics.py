@@ -11,7 +11,7 @@ The second method involves using pandas built-in
 method read_html to accomplish similar results.
 
 Both are implmented with concurrent python package
-to capture multiple seasons using a ThreadPool.
+to capture multiple seasons using a Process or Thread Pool.
 
 Note: Data lookback only encompasses 2003 - Present seasons
 Time Comparisons:
